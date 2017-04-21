@@ -18,9 +18,9 @@ public class DeserializeDemo {
       }
       finally{
     	  if(in !=null)
-    	  in.close();
+    	 // in.close();
     	  if(fileIn !=null)
-          fileIn.close();
+         // fileIn.close();
       }
       
       System.out.println("Deserialized Employee...");
